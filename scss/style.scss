@@ -1,0 +1,83 @@
+body {
+	background: #2E323C;
+}
+
+.content {
+	color: #91B3BC;
+	text-align: center;
+	overflow-y: auto;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+.content h1 {
+	padding-top: 50px;
+	font-size: 4em;
+	font-weight: 700;
+}
+
+.content p {
+	font-size: 1em;
+	font-weight: 500;
+	font-style: italic;
+}
+
+hr {
+	border-top: 3px #5B7D87 solid;
+	width: 75%;
+}
+
+.btn-primary {
+	border: none;
+	background: #45415E;
+	color: #91B3BC;
+}
+
+.btn-primary:hover {
+	border: 6px #91B3BC solid;
+	background: #91B3BC;
+	color: #2B4251;
+}
+
+.icon-big {
+	font-size: 42px;
+}
+
+.search-box input[type=text] {
+	border: 3px #91B3BC solid;
+	border-radius: 50px;
+	background-color: #2E323C;
+	color: #91B3BC;
+    width: 40%;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 80%;
+}
+
+.results {
+	margin-top: 40px;
+}
+
+.single-result {
+	background: #91B3BC;
+	color: #2E323C;
+	border-radius: 5px;
+}
+
+.single-result h3 {
+	padding-top: 20px;
+	margin-top: 20px;
+}
+
+.single-result a{
+	color: #2E323C;
+}
+
+.single-result a:hover{
+	color: #2B4251;
+}

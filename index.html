@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Wikipedia Viewer</title>
+    
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="wikipedia search website, displays results of your search or fetches a random article.">
+  <meta name="author" content="Christos Zonios">
+  <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+    
+  <!-- Browser tab icon -->
+    <link rel="icon" type="image/png" href="./img/favicon.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="./img/favicon.png" sizes="32x32">
+
+  <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <div id="top" class="content">
+	<h1>Wikipedia Viewer</h1>
+	<hr>
+	<span class="icon"><i class="fa fa-search icon-big"></i></span>
+	<br><br>
+	<div class="search-box">
+		
+		<input id="search" type="text" name="search" placeholder=" Search...">
+		<br><br>
+		
+		<input class="btn btn-primary btn-md" type='submit' onclick="search();" />
+		 or 
+		<a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank" class="btn btn-primary btn-md">Random Article</a>
+		<br><hr>
+		<div class="results">
+			
+		</div>
+	</div>
+	
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
