@@ -6,8 +6,9 @@ body {
   color: #91B3BC;
   text-align: center;
   overflow-y: auto;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 70vw;
 }
 
 .content h1 {
@@ -44,8 +45,9 @@ hr {
 }
 
 .search-box input[type=text] {
+  padding-left: 5px;
   border: 3px #91B3BC solid;
-  border-radius: 50px;
+  border-radius: 48px;
   background-color: #2E323C;
   color: #91B3BC;
   width: 40%;
@@ -79,4 +81,49 @@ input[type=text]:focus {
 
 .single-result a:hover {
   color: #2B4251;
+}
+
+@media (max-width: 768px) {
+    
+    .content {
+        max-width: 100%;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    
+    .content h1 {
+        padding-top: 5%;
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+
+    .content p {
+        font-size: 1em;
+        font-weight: 200;
+        font-style: italic;
+    }
+
+    hr {
+        border-top: 1px #5B7D87 solid;
+        width: 75%;
+    }
+
+    .btn-primary:hover {
+        border: 3px #91B3BC solid;
+    }
+
+    .icon-big {
+        font-size: 32px;
+    }
+    
+    .results {
+        margin-top: 5%;
+    }
+
+    .single-result h3 {
+        font-size: 1.5em;
+        padding-top: 2%;
+        margin-top: 2%;
+    }
+    
 }
