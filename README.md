@@ -15,7 +15,7 @@ This web app uses the Wikipedia API to search Wikipedia, find up to 10 most rele
 
 
 
-###[https://czonios.github.io/wikipedia-viewer](https://czonios.github.io/wikipedia-viewer)
+### [https://czonios.github.io/wikipedia-viewer](https://czonios.github.io/wikipedia-viewer)
 
 ### Author
 Written and coded by [Christos Zonios](https://czonios.github.io).
